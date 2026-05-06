@@ -1,7 +1,13 @@
 [project]
 name = "harness-engineering"
 version = "0.1.0"
-description = "Add your description here"
+description = "A study project about harness engineering"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = []
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+    "jupyterlab>=4.5.7",
+]
